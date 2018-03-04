@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Your description goes here">
+  <meta name="keywords" content="one, two, three">
+
+  <title>Blank Template</title>
+
+  <!-- external CSS link -->
+
+<link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
+  <link rel="stylesheet" href="attendance.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <img src="attendancelist.png" alt="">
+      <nav>
+				<ul class="navi">
+					<li>MONDAY</li>
+					<li>TUESDAY</li>
+          <li>WEDNESDAY</li>
+					<li>THURSDAY</li>
+          <li>FRIDAY</li>
+				</ul>
+			</nav>
+    </header>
+    <input id="enter" type="text" name="" value="" placeholder="Enter Student Name">
+    <button id="present" type="button" name="button">Present</button>
+    <button id="tardy" type="button" name="button">Tardy</button>
+    <button id="all" type="button" name="button">See All/Hide All</button>
+   <section class="secPresent">
+     <h2>Present</h2>
+
+     <ol class="present-list"></ol>
+   </section >
+<section class="secTardy">
+  <h2>Tardy</h2>
+  <ol class="tardy-list"></ol>
+
+</section>
+
+
+
+  </div>
+  <!-- #container -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="attendancelist.js"></script>
+</body>
+
+</html>
