@@ -18,4 +18,4 @@ If I had more time, I would make the interface more appealing. I would add a edi
 I would also save the results in a variable. 
 
 Lessons Learned:
-I was introduced to pushing and pulling items into arrays. 
+I was introduced to pushing items into arrays. 
